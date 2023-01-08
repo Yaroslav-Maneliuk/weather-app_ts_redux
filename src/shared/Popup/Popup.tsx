@@ -46,6 +46,7 @@ const Popup = (props: Props) => {
           </div>
           <div className={s.day_city}>Kyiv</div>
         </div>
+
         <div className={s.this_day_info}>
           <div className={s.this_day_info_items}>
             {items.map((item: Item) =>
