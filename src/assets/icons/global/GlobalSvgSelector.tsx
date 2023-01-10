@@ -49,7 +49,7 @@ export const GlobalSvgSelector = ({ id }: Props) => {
           />
         </svg>
       );
-      case 'change':
+      case 'change-theme':
         return (
           <svg
             width="35"

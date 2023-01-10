@@ -17,8 +17,6 @@ const Header = (props: Props) => {
     { value: "city-3", label: "Ternopil" }
   ]
 
-
-
   const colourStyles = {
     control: (styles: any) => ({
       ...styles,
@@ -35,13 +33,9 @@ const Header = (props: Props) => {
     }),
   }
 
-
   function changeTheme() {
-
     theme.changeTheme(theme.theme === Theme.LIGHT ? Theme.DARK : Theme.LIGHT)
   }
-
-
 
   return (
     <header className={s.header}>
@@ -53,7 +47,7 @@ const Header = (props: Props) => {
       </div>
       <div className={s.wrapper}>
         <div className={s.change_theme} onClick={changeTheme}>
-          <GlobalSvgSelector id="change" />
+          <GlobalSvgSelector id="change-theme" />
         </div>
         <Select
           defaultValue={options[0]}
