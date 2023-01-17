@@ -12,9 +12,9 @@ const Header = (props: Props) => {
   const theme = useTheme()
 
   const options = [
-    { value: "city-1", label: "Kyiv" },
-    { value: "city-2", label: "Lviv" },
-    { value: "city-3", label: "Ternopil" }
+    { value: "city-1", label: "Київ" },
+    { value: "city-2", label: "Львів" },
+    { value: "city-3", label: "Тернопіль" }
   ]
 
   const colourStyles = {
@@ -43,7 +43,7 @@ const Header = (props: Props) => {
         <div className={s.logo}>
           <GlobalSvgSelector id="header-logo" />
         </div>
-        <div className={s.title}>weather application</div>
+        <div className={s.title}>погода</div>
       </div>
       <div className={s.wrapper}>
         <div className={s.change_theme} onClick={changeTheme}>

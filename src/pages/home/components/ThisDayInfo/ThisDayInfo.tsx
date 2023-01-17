@@ -16,23 +16,23 @@ const ThisDayInfo = (props: Props) => {
   const items: any = [
     {
       icon_id: 'temp',
-      name: 'Temperature',
-      value: '20° - ощущается как 17°',
+      name: 'Температура',
+      value: '20° - відчуваєьтся як 17°',
     },
     {
       icon_id: 'pressure',
-      name: 'Pressure',
-      value: '765 мм ртутного столба - нормальное',
+      name: 'Тиск',
+      value: '765 мм ртутного стовпа – нормальне',
     },
     {
       icon_id: 'precipitation',
-      name: 'Precipitation',
-      value: 'Без осадков',
+      name: 'Опади',
+      value: 'Без опадів',
     },
     {
       icon_id: 'wind',
-      name: 'Wind',
-      value: '3 м/с юго-запад - легкий ветер',
+      name: 'Вітер',
+      value: '3 м/с південний-захід - легкий вітер',
     },
   ];
 

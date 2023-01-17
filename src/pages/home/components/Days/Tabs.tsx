@@ -6,13 +6,13 @@ type Props = {}
 const Tabs = (props: Props) => {
   const tabs = [
     {
-      value: 'For a week',
+      value: 'Протягом тижня',
     },
     {
-      value: 'For 10 days',
+      value: 'Протягом 10 днів',
     },
     {
-      value: 'For a month',
+      value: 'Протягом місяця',
     },
   ];
 
@@ -26,7 +26,7 @@ const Tabs = (props: Props) => {
             </div>)
           )}
       </div>
-      <div className={s.cancel}>Cancel</div>
+      <div className={s.cancel}>Скасувати</div>
     </div>
   )
 }
